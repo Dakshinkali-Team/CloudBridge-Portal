@@ -1,0 +1,39 @@
+Ajay Balami
+IoT Enthusiast  | 	Electronics & Embedded Systems Developer	ajaybalami980@gmail.com
+LinkedIn: Link
+GitHub: Link
+Mobile: +977 9803391169
+Passionate and detail-oriented electronics and IoT developer with hands-on experience in designing smart systems using Arduino, wireless communication, and sensor integration. Skilled in developing innovative solutions for real-world applications, including safety and automation. Eager to apply my knowledge in IoT, low-power electronics, and cloud-based monitoring to revolutionize smart technologies.
+Education
+Virinchi College	Kumaripati, Lalitpur
+BICT (Software Engineering)  CGPA-3.31
+May 2021-Jan 2025
+Skills Summary
+Languages:	C++, Python, HTML, CSS, JavaScript
+Tools:	Fritzing, Circuit Wizards, Tinker CAD, Arduino, Pyucraft, Thonny, Blynk, MIT App Inventor, Git and GitHub
+Soft Skills:	Team work, Collaboration, Communication, Leadership, Problem Solving, Attention to detail, Time management, knowledge Sharing
+Projects
+Smart Green House: Link
+Revolutionizing the farming with the use of various sensors like DHT sensor, MQ sensor, soil moisture sensor , automating the drop irrigation system, cloud data monitoring  along integration of mobile app . Overall making the farming smart with the aid of technology.
+Smart Helmet: Link
+Project Made with various IOT technology with features: helmet detection, alcohol detection, reckless driving monitoring, SOS emergency service with mobile app integration. Made using Arduino IDE and MIT App inventor	Self Balancing Robot: Link
+A two wheeler robot capable of balancing itself on two wheels without any external support along with external remote control that is capable for driving the robot in any direction as desired by user
+Gemini with ESP8266: Link
+Use of Gemini API with esp8266 which allows the user to use Gemini AI through serial monitor. Made using C++	Solar Tracking (Sun Sync) Project: Link
+Project made to increase the efficiency of solar panels by rotating the panel in same direction as where the sun is
+Work Experience
+IOT and Robotics Internship – 5 months ( 01 Aug 2024  -  31 Dec 2024 ) - Virinchi
+Led IOT and Robotics Club     2023 - 2024 Dec - Virinchi
+Responsibilities:
+o	Developed various IOT and Robotics projects like piano, soccer, racing bots, smart home, target shooting project, snake , LED chaser able to produce different led light pattern based upon sound intensity, and gesture mouse: duplicating the functionality of mouse and can control the cursor on monitor based upon the movement of hand where the device is worn
+o	Conduct training sessions, workshop for juniors, and students of other colleges on IOT and robotics concepts, tools, and technologies, fostering a culture of continuous learning and innovation.
+o	Handle the procurement and management of resources along with communication with all
+Game Developer Intern- 3 Months(8  Nov 2024 - 7 Feb 2025)- Danson Solution 
+Responsibilities:
+o	Designed and developed game mechanics using Gdevelop.
+o	Collaborated with designers and artists to create engaging gameplay experiences.
+o	Optimized game performance and resolved bugs to ensure a smooth user experience.
+o	Integrated animations, sound effects, and UI elements into game projects.
+Certifications
+o	IOT Edge Computing and IOT Analytics by Infosys SpringBoard (March 2024)
+o	Python with Django by Sipalaya IT Training and Internship (July 2024)
