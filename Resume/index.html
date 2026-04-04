@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dakshinkali Tech Team - Genese Training</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f6f9;
+      }
+
+      header {
+        background: #0d47a1;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      .container {
+        padding: 30px;
+      }
+
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+      }
+
+      .card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card h3 {
+        margin: 10px 0;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 15px;
+        background: #1976d2;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background: #0d47a1;
+      }
+
+      footer {
+        text-align: center;
+        padding: 15px;
+        background: #eee;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Dakshinkali Tech Team</h1>
+      <p>Genese Solution Training - Team Members</p>
+    </header>
+
+    <div class="container">
+      <div class="team-grid" id="teamContainer">
+        <!-- Cards will be inserted here by JS -->
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Dakshinkali Tech Team</p>
+    </footer>
+
+    <script>
+      const teamMembers = [
+        {
+          name: "Ajay Balami",
+          resume: "ajay.html",
+        },
+        {
+          name: "Alena Maharjan",
+          resume: "alena.html",
+        },
+        {
+          name: "Basanta Jung Basnet",
+          resume: "basanta.html",
+        },
+        {
+          name: "Bibisha Lama",
+          resume: "bibisha.html",
+        },
+        {
+          name: "Bipin Maharjan",
+          resume: "bipin.html",
+        },
+        {
+          name: "Salon Manandhar",
+          resume: "salon.html",
+        },
+        {
+          name: "Sarina Balami",
+          resume: "sarina.html",
+        },
+        {
+          name: "Swostika Balami",
+          resume: " swostika.html",
+        },
+      ];
+
+      const container = document.getElementById("teamContainer");
+
+      teamMembers.forEach((member) => {
+        const card = document.createElement("div");
+        card.classList.add("card");
+
+        card.innerHTML = `
+        <h3>${member.name}</h3>
+        <a href="${member.resume}" target="_blank" class="btn">
+          View Resume
+        </a>
+      `;
+
+        container.appendChild(card);
+      });
+    </script>
+  </body>
+</html>
