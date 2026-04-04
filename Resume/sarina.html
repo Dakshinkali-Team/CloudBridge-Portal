@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sarina Balami | Portfolio</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* LIGHT MODE */
+body.light {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+body.light .card {
+  background: #ffffff;
+}
+
+body.light nav {
+  background: rgba(255,255,255,0.8);
+}
+
+body.light nav a {
+  color: #0f172a;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(15,23,42,0.8);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #cbd5f5;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header span {
+  color: #38bdf8;
+}
+
+header p {
+  color: #94a3b8;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: white;
+  text-decoration: none;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 60px;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.6s ease;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* SKILLS */
+.skill-bar {
+  margin-bottom: 15px;
+}
+
+.bar {
+  background: #334155;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar div {
+  height: 100%;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+}
+
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* STRENGTHS */
+.strengths-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.strengths-list li {
+  background: #334155;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+/* CONTACT */
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info a {
+  display: block;
+  color: #38bdf8;
+  margin: 8px 0;
+}
+
+.social {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: #cbd5f5;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#strengths">Strengths</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><button id="themeToggle">🌙</button></li>
+  </ul>
+</nav>
+
+<header>
+  <h1 style="color: #6498af;">Hello, I'm <span>Sarina Balami</span></h1>
+  <p>I am a <span id="typing"></span></p>
+  <a href="cv.pdf" download class="btn">Download CV</a>
+</header>
+
+<div class="container">
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+          A passionate and motivated Frontend Developer with foundational knowledge in web development technologies. 
+        Eager to contribute to real-world projects, enhance technical skills, and grow as a full-stack developer.
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skill-bar"><p>HTML</p><div class="bar"><div style="width:95%"></div></div></div>
+  <div class="skill-bar"><p>CSS</p><div class="bar"><div style="width:90%"></div></div></div>
+   <div class="skill-bar"><p>Git</p><div class="bar"><div style="width:85%"></div></div></div>
+  <div class="skill-bar"><p>JavaScript</p><div class="bar"><div style="width:70%"></div></div></div>
+  <div class="skill-bar"><p>React</p><div class="bar"><div style="width:50%"></div></div></div>
+  <div class="skill-bar"><p>SQL</p><div class="bar"><div style="width:40%"></div></div></div>
+    <div class="skill-bar"><p>Node.js</p><div class="bar"><div style="width:30%"></div></div></div>
+  <div class="skill-bar"><p>Python</p><div class="bar"><div style="width:25%"></div></div></div>
+
+ 
+ 
+
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <p>Check out some of my recent projects that I've worked with my peers:</p><br>
+  <div class="projects">
+    <div class="card">Clinic Registration System</div>
+    <div class="card">E-commerce Gaming website</div>
+    <div class="card">Library Management System (GRANTHA)</div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    Bachelor in CSIT (7th Semester)<br>
+    Amrit Science Campus
+  </div>
+</section>
+
+<section id="strengths">
+  <h2>Strengths</h2>
+  <div class="card">
+    <ul>
+      <li>Problem Solving</li>
+      <li>Adaptability</li>
+      <li>Teamwork</li>
+      <li>Fast Learning</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <div class="card contact-box">
+
+    <div class="contact-info">
+      <a href="mailto:sarinabalami123@gmail.com">📧 Email</a>
+      <a href="tel:9861733660">📱 Phone</a>
+    </div>
+
+    <div class="social">
+      <a href="https://www.linkedin.com/in/sarina-balami-a83448257/" target="_blank" class="social-icon">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <a href="https://github.com/sacrod-in-a-tech" target="_blank" class="social-icon">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+<footer>
+  © 2026 Sarina Balami
+</footer>
+
+<script>
+
+/* Scroll animation */
+const sections = document.querySelectorAll("section");
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+sections.forEach(sec => observer.observe(sec));
+
+/* Theme toggle */
+const btn = document.getElementById("themeToggle");
+
+btn.onclick = () => {
+  document.body.classList.toggle("light");
+  btn.textContent = document.body.classList.contains("light") ? "☀️" : "🌙";
+};
+
+/* Typing effect */
+const words = ["Frontend Developer", "Problem Solver"];
+let i = 0, j = 0;
+
+function type(){
+  let text = words[i];
+  document.getElementById("typing").textContent = text.substring(0, j);
+
+  j++;
+
+  if(j > text.length){
+    j = 0;
+    i = (i + 1) % words.length;
+  }
+
+  setTimeout(type, 120);
+}
+
+type();
+
+</script>
+
+</body>
+</html>
